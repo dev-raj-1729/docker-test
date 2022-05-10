@@ -4,12 +4,11 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors())
-
 app.get('/', (req, res) => {
   res.json([
     {
-      "id":"0",
-      "title":"Book Review: The Bear & The Nightingale ABC"
+      "id":"1",
+      "title":"Book Review: The Name of the Wind"
     },
     {
       "id":"2",
